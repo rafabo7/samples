@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .main {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .card {
+            width: 400px;
+            height: 600px;
+            background-color: whitesmoke;
+            border-radius: 20px;
+            border: 1px solid gray;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+        }
+
+        .card img {
+            width: 100%;
+        }
+        .card .perfil {
+            width: 200px;
+            border: 4px solid white;
+            border-radius: 100%;
+            position: absolute;
+            top: 25%;
+        }
+        .card-info {
+            margin-top: 100px;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .place-contact {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            
+        }
+
+        .place-contact div {
+            display: flex;
+            gap: 8px;
+
+        }
+        .place-contact div p{
+            margin: 0 auto;
+        }
+
+        div .icon {
+            width: 20px;
+        }
+    </style>
+</head>
+<body>
+    <section class="main">
+        <div class="card">
+            <img src="https://images.pexels.com/photos/1404916/pexels-photo-1404916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="honk-kong-street">
+            <img class="perfil" src="./perfil.png" alt="perfil">
+            <section class="card-info">
+                <h2>Rafael Botella</h2>
+                <p>FrontEnd self-taught developer. Nature enthusiastic and Jackie Chan fan.</p>
+                <section class="place-contact">
+                    <div>
+                        <img class="icon" src="https://cdn-icons-png.flaticon.com/128/7282/7282040.png" alt=""><p>Spain</p>
+                    </div>
+                    <div>
+                        <img class="icon" src="https://cdn-icons-png.flaticon.com/128/80/80599.png" alt="">
+                        <p>E-mail</p>
+                    </div>
+                </section>
+            </section>
+        </div>
+
+    </section>
+</body>
+</html>
