@@ -124,7 +124,7 @@ body {
     color: var(--hospital-green);
     text-decoration: none;
 }
-#forgot-password {
+.form a {
     color: var(--hospital-green);
     text-decoration: none;
     text-align: center;
