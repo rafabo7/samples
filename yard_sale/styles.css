@@ -96,6 +96,22 @@ body {
     font-size: var(--md);
     font-weight: bold;
     height: 44px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.secondary-button {
+    background-color: var(--white);
+    border-radius: 8px;
+    border: 1px solid var(--hospital-green);
+    color: var(--hospital-green);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 44px;
+    margin-top: 16px;
+    margin-bottom: 32px;
 }
 
 .resend {
@@ -108,15 +124,30 @@ body {
     color: var(--hospital-green);
     text-decoration: none;
 }
-
-.login-button{
-    margin-top: 16px;
-    margin-bottom: 32px;
+#forgot-password {
+    color: var(--hospital-green);
+    text-decoration: none;
+    text-align: center;
 }
 
-@media (max-width: 820px){
+
+
+@media (max-width: 460px){
+
+    .login{
+        height: 90vh;
+    }
+
     .logo{
         display: block;
+    }
+
+    .secondary-button {
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 12px;
+        width: inherit;
+
     }
 }
 /* El espaciado / márgenes deben ser múltiplos de 4 */
