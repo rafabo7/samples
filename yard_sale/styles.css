@@ -194,6 +194,47 @@ figure {
     margin: 0;
 }
 
+.desktop-menu {
+    width: 8rem;
+    height: auto;
+    border: 1px solid var(--very-light-pink);
+    border-radius: 6px;
+    padding: 0px 20px;
+
+}
+
+.desktop-menu ul{
+    list-style: none;
+    padding: 8px;
+    margin: 0;
+
+}
+
+.desktop-menu ul li{
+    text-align: end;
+    margin-bottom: 4px;
+
+}
+
+.desktop-menu ul li:last-child{
+    padding-top: 20px;
+    border-top: 1px solid var(--very-light-pink);
+    font-size: var(--sm);
+}
+
+.desktop-menu ul li:last-child a{
+    color: var(--very-light-pink)
+}
+
+.desktop-menu ul li:not(:last-child){
+    font-weight: bold;
+    padding: 8px 4px;
+}
+
+.desktop-menu ul li a{
+    text-decoration: none;
+    color: var(--black)
+}
 
 
 @media (max-width: 640px){
