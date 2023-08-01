@@ -416,6 +416,47 @@ nav {
     border-radius: 8px;
 }
 
+.product-aside {
+    width: 350px;
+    height: auto;
+    position: absolute;
+    right: 0;
+}
+
+.product-aside-img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+} 
+.close{
+    font-size: 32px;
+    position: absolute;
+    left: 12px;
+}
+
+.close:hover {
+    cursor: pointer;
+}
+
+.text-info {
+    margin: 24px;
+}
+
+.text-info p {
+    font-size: var(--md);
+}
+
+.text-info p:nth-child(2), .text-info p:nth-child(3) {
+    color: var(--very-light-pink);
+}
+
+.add-to-cart-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
 
 
 
@@ -461,6 +502,11 @@ nav {
 
     .nav-left ul, .nav-right ul, .nav-img {
         display: none;
+    }
+
+    .product-aside {
+        width: calc(100% - 8px);
+        margin: 4px;
     }
 
    
